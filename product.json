@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Blanket",
+        "brand": "Autograph",
+        "price": 2500,
+        "stock": 20,
+        "description": "Soft, warm, and beautifully crafted blanket designed to provide everyday comfort and lasting durability. Perfect for cozy nights and elegant home décor.",
+        "image":"/product_images/blanket.png"
+    },
+    {
+        "id": 2,
+        "name": "Badsheet",
+        "brand": "Portico",
+        "price": 800,
+        "stock": 20,
+        "description": "Soft, breathable bedsheet crafted from premium fabric to ensure comfort, durability, and a refreshing sleep experience every night.",
+        "image":"/product_images/badsheet.png"
+    },
+    {
+        "id": 3,
+        "name": "Mattress",
+        "brand": "Sleep well",
+        "price": 5000,
+        "stock": 15,
+        "description": "Experience balanced softness and firm support with this mattress, crafted to promote deep, uninterrupted sleep.",
+        "image":"/product_images/mattress.png"
+    },
+    {
+        "id": 4,
+        "name": "Pillow",
+        "brand": "Signature",
+        "price": 500,
+        "stock": 25,
+        "description": "Experience gentle support with a pillow that helps maintain proper neck alignment for better sleep.",
+        "image":"/product_images/pillow.png"
+    },
+    {
+        "id": 5,
+        "name": "Shofa Cover",
+        "brand": "Signature",
+        "price": 1200,
+        "stock": 10,
+        "description": "Stylish and durable sofa cover designed to protect your furniture while enhancing your living space.",
+        "image":"/product_images/shofa cover.png"
+    },
+    {
+        "id": 6,
+        "name": "Curtains",
+        "brand": "UP wala",
+        "price": 550,
+        "stock": 50,
+        "description": "Stylish curtains that balance natural light and comfort for a warm, cozy atmosphere.",
+        "image":"/product_images/curtains.png"
+    },
+    {
+        "id": 7,
+        "name": "Towel",
+        "brand": "signature",
+        "price": 450,
+        "stock": 12,
+        "description": "Luxuriously soft towels made for quick absorption and everyday comfort.",
+        "image":"/product_images/towel.png"
+    },
+    {
+        "id": 8,
+        "name": "Rajai",
+        "brand": "signature",
+        "price": 3600,
+        "stock": 8,
+        "description": "Soft, fluffy rajai designed to keep you warm and comfortable during chilly nights.",
+        "image":"/product_images/rajai.png"
+    },
+    {
+        "id": 9,
+        "name": "Kalin",
+        "brand": "Jaipuri",
+        "price": 1200,
+        "stock": 5,
+        "description": "Beautifully designed kalin that adds warmth, style, and comfort to your living space.",
+        "image":"/product_images/kalin.png"
+    },
+    {
+        "id": 10,
+        "name": "Refrigerator Cover",
+        "brand": "Mumbai brand",
+        "price": 250,
+        "stock": 7,
+        "description": "Protect your refrigerator from dust, stains, and scratches while adding a neat and stylish touch to your kitchen.",
+        "image":"/product_images/refrigerator cover.png"
+    }
+]

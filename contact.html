@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rachna-Handloom</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+<!-- Header section start -->
+    <section class="container_top">
+      <header class="top">
+        <p>Free shipping, 7-day return or refund guarantee</p>
+        <div class="sing_in_up">
+          <a class="btn_sign" href="#">SIGN IN</a>
+          <a class="btn_sign" href="#">SIGN UP</a>
+        </div>
+      </header>
+
+      <div class="container_top_bottom">
+        <nav class="container_nav">
+          <a href="/">
+            <img
+              class="logo"
+              src="../public/image/logo-removebg-preview.png"
+              alt="logo"
+            />
+          </a>
+<!-- hamburger section start-->
+        <button class="hamburger">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+        </button>
+
+          <nav class="hamburger_value">
+            <button class="hamburger_nav">X</button>
+            <a class="nav-link_ham" href="/">HOME</a>
+            <a class="nav-link_ham" href="./about.html">ABOUT</a>
+            <a class="nav-link_ham" href="./products.html">PRODUCTS</a>
+            <a class="nav-link_ham" href="./contact.html">CONTACT</a>
+            <a
+                class="nav-link add-to-cart-button nav-link"
+                id="cart_btn"
+                href="./add-to-cart.html"
+                ><i class="fa-solid fa-cart-shopping"> 0</i></a
+              >
+          </nav>
+<!-- hamburger section end -->
+          <ul class="navbar">
+            <li><a class="nav-link" href="/">HOME</a></li>
+            <li><a class="nav-link" href="./about.html">ABOUT</a></li>
+            <li><a class="nav-link" href="./products.html">PRODUCTS</a></li>
+            <li><a class="nav-link" href="./contact.html">CONTACT</a></li>
+            <li>
+              <a
+                class="nav-link add-to-cart-button nav-link"
+                id="cart_btn"
+                href="./add-to-cart.html"
+                ><i class="fa-solid fa-cart-shopping"> 0</i></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+<!-- Header section End -->
+
+<!-- Main section start  -->
+ <section>
+  <div class="contact_container">
+    <div class="contact_form_container">
+      <form class="contact_form_element" action="https://formspree.io/f/xnjdankw" method="post">
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" maxlength="30"  placeholder="Enter the Name" require >
+        <label for="Phone_Number">Phone Number</label>
+        <input id="Phone_Number" name="phone" type="number" maxlength="10" placeholder="Enter the phone number" required>
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email"  placeholder="Enter the email" required>
+        <label for="text_area">Message</label>
+        <textarea id="text_area" name="message" cols="5" rows="6" placeholder="Enter the message"></textarea>
+        <button type="submit" class="form_submit_btn">Submit</button>
+      </form>
+      <div class="contact_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5780.418341204509!2d77.6517577950553!3d28.7130129826487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c8e805851396d%3A0xefc5478b43db1239!2sPilkhuwa%2C%20Uttar%20Pradesh%20245304!5e0!3m2!1sen!2sin!4v1769349703751!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- Main section end -->
+
+<!-- Footer section start -->
+ <section class="footer_container">
+  <footer>
+    <div class="left_footer">
+      <a href="/"><img class="footer_logo" src="../public/image/logo.png" alt="logo"></a>
+      <p>Welcome to Rachna Handloom, your trusted destination for premium home furnishings.</p>
+      <div class="left_footer_images">
+        <img class="footer_image" src="../public/image/bitcoin.png" alt="">
+        <img class="footer_image" src="../public/image/master card.png" alt="">
+        <img class="footer_image" src="../public/image/paytm.png" alt="">
+        <img class="footer_image" src="../public/image/visa.png" alt="">
+        <img class="footer_image" src="../public/image/paypal.png" alt="">
+      </div>
+    </div>
+    <div class="middle_footer">
+      <h2>Shopping</h2>
+      <div class="para">
+        <p>Blanket</p>
+        <p>Mattress</p>
+        <p>Curtains</p>
+        <p>Pillows</p>
+      </div>
+    </div>
+    <div class="right_footer">
+      <h2>NewsLetter</h2>
+      <p class="para">Be the first to know about new arrivals, sales & promos!</p>
+      <input class="input_field" type="email" placeholder="Enter the Email">
+    </div>
+  </footer>
+  <div class="coder">Created by @Coderhjs</div>
+ </section>
+<!-- Footer section end -->
+ <script type="module" src="./main.js"></script>
+  </body>
+</html>
